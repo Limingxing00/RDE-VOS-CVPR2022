@@ -210,6 +210,10 @@ klloss_weight = 10 (paper) -> 5 (now)
 decoder_f2_weight = 10 (paper) -> 5 (now)
 decoder_f4_weight = 10 (paper) -> 5 (now)
 ```
+
+# Acknowledgement
+This project is built upon numerous previous projects. We'd like to thank the contributors of [STCN](https://github.com/hkchengrex/STCN) and [MiVOS](https://github.com/hkchengrex/MiVOS).
+
 # To do
 - [x] quick start and quick evaluation.
 - [x] inference codes.
