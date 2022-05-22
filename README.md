@@ -8,6 +8,9 @@ If you want to evaluate our method on the davis 2017 validation set, refer to [R
 # Model zoo
 You can download the pretrained models from [Google]().
 
+The predictions of our method can be download from [Google](https://drive.google.com/drive/folders/1cQLvJwoNWV__kiWG_hiTcBZa1eXrWoqm?usp=sharing).
+
+
 # Dataset
 Following [STCN](https://arxiv.org/pdf/2106.05210), we train the network in the three stages. Firstly, we train the network on the static image dataset, which can be downloaded in `download_datasets.py`. Then we fine-tune the network with SAM on the BL30K dataset, which can be downloaded in `download_bl30k.py`. Note, BL30K is an extensive dataset introduced by [MiVOS](https://arxiv.org/pdf/2103.07941.pdf) and is 700GB in total. Finally, we fine-tune the network with SAM on the mixed dataset (DAVIS 2017 and YouTube-VOS 2019).  
 
