@@ -60,7 +60,7 @@ python eval_davis.py --output ... --davis_path ... --model  ...   --mode two-fra
 
 You can use this protocol.
 ```python
-python eval_davis.py --output prediction/s012 --davis_path ... --model  pretrain/model_s012_best.pth   --mode two-frames-compress  --mem_every 3 --amp
+python eval_davis.py --output prediction/s012 --davis_path ... --model  pretrain/model_s012_final.pth   --mode two-frames-compress  --mem_every 3 --amp
 ```
 
 
@@ -105,19 +105,19 @@ By one gpu, you can infer these datasets as follows:
 
 - **DAVIS 2017 validation set**
 ```python
-python eval_davis.py --output prediction/DAVIS-2017-val --davis_path ... --model  pretrain/model_s012_best.pth   --mode two-frames-compress  --mem_every 3 --amp
+python eval_davis.py --output prediction/DAVIS-2017-val --davis_path ... --model  pretrain/model_s012_final.pth   --mode two-frames-compress  --mem_every 3 --amp
 ```
 - **Davis 2017 test set** 
 ```python
-python eval_davis.py --output prediction/DAVIS-2017-test --davis_path ... --model  pretrain/model_s012_best.pth   --mode two-frames-compress  --mem_every 3 --top 40 --split testdev --amp
+python eval_davis.py --output prediction/DAVIS-2017-test --davis_path ... --model  pretrain/model_s012_final.pth   --mode two-frames-compress  --mem_every 3 --top 40 --split testdev --amp
 ```
 - **DAVIS 2016 validation set**
 ```python
-python eval_davis_2016.py --output prediction/DAVIS-2017-val --davis_path ... --model  pretrain/model_s012_best.pth   --mode two-frames-compress  --mem_every 3 --top 40 --split testdev --amp
+python eval_davis_2016.py --output prediction/DAVIS-2017-val --davis_path ... --model  pretrain/model_s012_final.pth   --mode two-frames-compress  --mem_every 3 --top 40 --split testdev --amp
 ```
 - **YouTube 2019 validation set**
 ```python
-python eval_youtube.py --output prediction/YV-19-val --yv_path ... --model  pretrain/model_s012_best_yv.pth  --mode two-frames-compress  --mem_every 4 --top 20 --amp
+python eval_youtube.py --output prediction/YV-19-val --yv_path ... --model  pretrain/model_s012_final_yv.pth  --mode two-frames-compress  --mem_every 4 --top 20 --amp
 ```
 
 # Training
