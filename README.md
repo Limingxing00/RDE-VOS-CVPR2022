@@ -6,7 +6,7 @@ If you just implement our method, refer to [Requirements](https://github.com/hkc
 If you want to evaluate our method on the davis 2017 validation set, refer to [Requirements](https://github.com/davisvideochallenge/davis2017-evaluation#installation).
 
 # Model zoo
-You can download the pretrained models from [Google]().
+You can download the pretrained models from [Google](https://drive.google.com/drive/folders/1i6GtLPUNZe0h72IfhU2s_WHA7ZuVoudG?usp=sharing).
 
 The predictions of our method can be download from [Google](https://drive.google.com/drive/folders/1cQLvJwoNWV__kiWG_hiTcBZa1eXrWoqm?usp=sharing).
 
@@ -221,7 +221,7 @@ This project is built upon numerous previous projects. We'd like to thank the co
 - [x] quick start and quick evaluation.
 - [x] inference codes.
 - [x] training detials.
-- [ ] pre-trained models.
+- [x] pre-trained models.
 
 
 
